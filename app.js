@@ -6,9 +6,9 @@ function Questions() {
         question = prompt(questions[x]).trim().toLowerCase();
         while (question !== "yes" && question !== "no") {
             if (!question) {
-                alert("Invalid input.enter Yes or No.");
-            } else {
-                alert("Invalid input.enter Yes or No.");
+                alert("Input should not be empty !!");
+            }else{
+                alert("Anser Should be yes or no !!");
             }
             question = prompt(questions[x]).trim().toLowerCase();
         }
@@ -16,6 +16,13 @@ function Questions() {
     }
     return answers;
 }
+// do{
+//     question = prompt(questions[x]).trim().toLowerCase();
+//     if (question ==="")
+//     {
+//         alert
+//     }
+// }while(question === "")
 
 Questions();
 
