@@ -16,11 +16,17 @@ function Questions() {
     }
     return answers;
 }
+
+Questions();
+
 function answerforqustions() {
-    Questions();
     console.log("array of answers :" + answers)
 }
-const userAnswers = answerforqustions();
+
+answerforqustions();
+
+
+
 var name1 = prompt("Please enter your name:");
 var gender = prompt("Please enter your gender (male or female):");
 var age = parseInt(prompt("Please enter your age:"));
